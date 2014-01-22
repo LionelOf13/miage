@@ -28,8 +28,11 @@ https://github.com/hugo13/miage.git
 Avant de push ou de pull TOUJOURS FAIRE UN COMMIT!
 NE JAMAIS COMMIT L'ENSELBLE DU REPERTOIRE SOURCE MAIS SEULEMENT LES FICHIERS MODIFIES
 
-Pull : permet de recuperer le code du serveur
+Pull (festch + merge voir plus bas): permet de recuperer le code du serveur et de le fusionner à votre branche locale
+fetch : un peu comme pull = recupe les fichiers manquants MAIS!!! --> ne fusionne pas àla branche locale 
+        --> à utiliser si vous avez peur de recupérer le code des copains pensant qu'il pourrait bousiller votre travail (comme la fusion n'ai pas instantanée)
+        merge --> après avoir fetch (si il n'y a pas de conflits) il faut merge (fusionner): cela fusionne à votre branche locale
 push : permet d'envoyer au serveur
-fetch : un peu comme pull mais je sait pas----ALLER SE RENSEIGNER SUR LE NET
+
 
 
